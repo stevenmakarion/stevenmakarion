@@ -35,28 +35,28 @@ Not a portfolio of demos. This is a live estate, maintained daily:
 ## Selected public work
 
 **Reliability and production discipline**
-- [pipeline-watch](https://github.com/stevenmakarion/pipeline-watch) — catching the quiet
+- [pipeline-watch](https://github.com/stevenmakarion/pipeline-watch): catching the quiet
   failures: 200-with-garbage, a job that silently stopped, a log that stopped growing.
-- [llm-guardrails](https://github.com/stevenmakarion/llm-guardrails) — an LLM is not an API.
+- [llm-guardrails](https://github.com/stevenmakarion/llm-guardrails): an LLM is not an API.
   An API fails loudly; an LLM fails plausibly. Five guards, zero dependencies, tested.
 
 **Self-hosted AI**
-- [local-llm-deploy](https://github.com/stevenmakarion/local-llm-deploy) — memory bandwidth
+- [local-llm-deploy](https://github.com/stevenmakarion/local-llm-deploy): memory bandwidth
   decides your speed, not the GPU. NUMA, context budgeting, quantization, keepwarm, and the
   health check that reasoning models break.
 
 **Automation and integration**
-- [n8n-lead-pipeline](https://github.com/stevenmakarion/n8n-lead-pipeline) — speed-to-lead
+- [n8n-lead-pipeline](https://github.com/stevenmakarion/n8n-lead-pipeline): speed-to-lead
   with sub-second acknowledgment, AI qualification, and explicit handling for every way the
   AI step can fail.
-- [n8n-debugging-casebook](https://github.com/stevenmakarion/n8n-debugging-casebook) — five
+- [n8n-debugging-casebook](https://github.com/stevenmakarion/n8n-debugging-casebook): five
   production failure modes, each built broken and then fixed, with the canvases.
 
 **Data acquisition**
-- [resilient-scraper](https://github.com/stevenmakarion/resilient-scraper) — a four-tier
+- [resilient-scraper](https://github.com/stevenmakarion/resilient-scraper): a four-tier
   transport ladder. One site returned HTTP 200 to curl and "blocked by network security" to
   headless Chrome, same host, same minute. The wall was the fingerprint, not the IP.
-- [job-radar](https://github.com/stevenmakarion/job-radar) — multi-source polling, weighted
+- [job-radar](https://github.com/stevenmakarion/job-radar): multi-source polling, weighted
   scoring, dedup across runs, alert only on what is new.
 
 ---
