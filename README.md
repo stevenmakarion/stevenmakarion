@@ -34,21 +34,30 @@ Not a portfolio of demos. This is a live estate, maintained daily:
 
 ## Selected public work
 
-**Reliability and production discipline**
+**Systems and architecture**
+- [llm-product-architecture](https://github.com/stevenmakarion/llm-product-architecture): what
+  it takes to run a consumer AI product on your own hardware. Billing and consent, onboarding
+  as a conversation, streaming chat with durable memory, async media, and the one guarded door
+  every model call passes through. Includes the working guard.
+- [service-estate](https://github.com/stevenmakarion/service-estate): a registry, a reconciler
+  and a deadman for a fleet of small services. Verify by artifact, alert on the edge, fail
+  open. It found a failed backup on its first run against a live 64-service estate.
+
+**Self-hosted AI**
+- [local-llm-deploy](https://github.com/stevenmakarion/local-llm-deploy): the measured numbers.
+  Memory bandwidth decides MoE speed, not the GPU. Includes `numa_bench.py`, which found that
+  the standard advice (interleave across nodes) is 23% slower here than pinning to one.
+
+**Reliability**
 - [pipeline-watch](https://github.com/stevenmakarion/pipeline-watch): catching the quiet
   failures: 200-with-garbage, a job that silently stopped, a log that stopped growing.
 - [llm-guardrails](https://github.com/stevenmakarion/llm-guardrails): an LLM is not an API.
   An API fails loudly; an LLM fails plausibly. Five guards, zero dependencies, tested.
 
-**Self-hosted AI**
-- [local-llm-deploy](https://github.com/stevenmakarion/local-llm-deploy): memory bandwidth
-  decides your speed, not the GPU. NUMA, context budgeting, quantization, keepwarm, and the
-  health check that reasoning models break.
-
 **Automation and integration**
-- [n8n-lead-pipeline](https://github.com/stevenmakarion/n8n-lead-pipeline): speed-to-lead
-  with sub-second acknowledgment, AI qualification, and explicit handling for every way the
-  AI step can fail.
+- [n8n-lead-pipeline](https://github.com/stevenmakarion/n8n-lead-pipeline): speed-to-lead with
+  sub-second acknowledgment, AI qualification, and explicit handling for every way the AI step
+  can fail.
 - [n8n-debugging-casebook](https://github.com/stevenmakarion/n8n-debugging-casebook): five
   production failure modes, each built broken and then fixed, with the canvases.
 
