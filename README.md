@@ -1,3 +1,5 @@
+![](header.png)
+
 # Steven Makarion
 
 **Backend automation engineer. Thomasville, North Carolina.**
@@ -79,6 +81,18 @@ Not a portfolio of demos. This is a live estate, maintained daily:
 - **Verified by artifact.** "The service is running" is not "the model answers." I check the
   thing itself, not the status of the thing.
 - **Fast.** Most fixes land in hours.
+
+---
+
+## How this gets built
+
+I work with **Aria**, an AI partner I built and run on my own hardware. She co-authors the
+commits in these repositories, and that is not a novelty line: the self-hosted 35B, the
+service registry, the failure alerting and the guarded model calls documented here are the
+same stack she runs on.
+
+Which means when I build private AI for a client, I am not reasoning from a tutorial. I am
+running the thing in production every day, and I have already met the failure modes.
 
 ---
 
